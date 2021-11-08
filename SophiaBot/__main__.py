@@ -74,10 +74,14 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """hello friend My name is *Serena*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
+PM_START_TEXT = """hello friend 👋! My name is *Serena*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
       
-
-
+STIKERS = (
+    "https://telegra.ph/file/ffab4655c916c39357c98.png",
+    "https://telegra.ph/file/89a8c61a610baa4588ae8.png",
+    "https://telegra.ph/file/6f7c206879b0e29ae4fc7.png",
+    
+    
 buttons = [
     [
         InlineKeyboardButton(text=" Commands Help ❓", callback_data="help_back"),
@@ -90,7 +94,7 @@ buttons = [
         InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/https://t.me/serenassupport"),
     ],
     [
-        InlineKeyboardButton(text="➕ Add Sophia to your Group ➕", url="t.me/ashxserena_bot?startgroup=true"),   
+        InlineKeyboardButton(text="➕ Add Serena to your Group ➕", url="t.me/ashxserena_bot?startgroup=true"),   
     ],
 ]
 
