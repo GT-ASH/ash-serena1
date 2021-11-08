@@ -74,42 +74,34 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there 👋! My name is *Sophia*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
-
-STICKERS = (
-      "CAACAgUAAx0CTpRfGwACF41hMfagTfWdHNFici1VtOCQVVNYmgACgh8AAsZRxhU6tKJa_ySnnCAE",
-      "CAACAgUAAx0CTpRfGwACF5phMfi5vgKwQFg6KuzHiEc79QFT0QACCR4AAsZRxhVu32VqEb3_1SAE",
-      "CAACAgUAAx0CTpRfGwACGIBhQcGJDHuuXsU5el3I86SEx3nTpgAC2R8AAsZRxhUpEe6EcVukQCAE",
-)    
+PM_START_TEXT = """hello friend My name is *Serena*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
+      
 
 
 buttons = [
     [
         InlineKeyboardButton(text=" Commands Help ❓", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(text="Info & About 🙋‍", callback_data="source_"),
-        InlineKeyboardButton(
-                  text="System Stats 💻", callback_data="stats_callback"
+    ]
+        InlineKeyboardButton(text="System Stats 💻", callback_data="stats_callback"
         ),
     ],
     [
-        InlineKeyboardButton(text=" Sophia News 🙋‍♀️ ", url=f"https://t.me/SophiaUpdates"),
-        InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/SophiaSupport_Official"),
+        InlineKeyboardButton(text=" Serena News 🙋‍♀️ ", url=f"https://t.me/serenasupdates"),
+        InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/https://t.me/serenassupport"),
     ],
     [
-        InlineKeyboardButton(text="➕ Add Sophia to your Group ➕", url="t.me/SophiaSLBot?startgroup=true"),   
+        InlineKeyboardButton(text="➕ Add Sophia to your Group ➕", url="t.me/ashxserena_bot?startgroup=true"),   
     ],
 ]
 
 HELP_STRINGS = """
-✘✘✘ 𝗛𝗲𝗹𝗽𝗳𝘂𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 ✘✘✘
+      𝗛𝗲𝗹𝗽𝗳𝘂𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
 
 Every possibility of Sophia is documentated here
 Click buttons to get help
 """
 
-DONATE_STRING = """ @dihanofficial """
+DONATE_STRING = """ @GT_SPIDER"""
 
 IMPORTED = {}
 MIGRATEABLE = []
